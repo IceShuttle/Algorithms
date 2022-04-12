@@ -1,6 +1,6 @@
-def list_hcf(l):
-    hcf = l.pop(0)
-    for i in l:
+def list_hcf(num_list):
+    hcf = num_list.pop(0)
+    for i in num_list:
         hcf = hcf2(hcf, i)
     return hcf
 
@@ -15,7 +15,7 @@ def hcf2(a, b):
 
 if __name__ == "__main__":
     n = int(input("How many numbers you want to get hcf of: "))
-    l = []
+    num_list = []
     for i in range(1, n + 1):
-        l.append(int(input(f"{i}:")))
-    print("The hcf of the following numbers is", list_hcf(l))
+        num_list.append(int(input(f"{i}:")))
+    print("The hcf of the following numbers is", list_hcf(num_list))
