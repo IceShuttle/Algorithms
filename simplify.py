@@ -1,3 +1,5 @@
+#!/bin/env python3
+
 from hcf import list_hcf
 
 

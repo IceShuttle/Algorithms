@@ -1,3 +1,5 @@
+#!/bin/env python3
+
 def list_hcf(num_list):
     ls = num_list.copy()
     hcf = ls.pop(0)
