@@ -1,6 +1,7 @@
 def list_hcf(num_list):
-    hcf = num_list.pop(0)
-    for i in num_list:
+    ls = num_list.copy()
+    hcf = ls.pop(0)
+    for i in ls:
         hcf = hcf2(hcf, i)
     return hcf
 
