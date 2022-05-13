@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from bin_permutation import get_bin_permutations 
 
-expr = input()
+expr = input("Please leave space left and right of each variable\n")
 words = expr.split()
 # terms = set(expr) & set('abcdefghijklmnopqrstuvwxyz')
 terms = []
